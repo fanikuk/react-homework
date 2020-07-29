@@ -1,0 +1,25 @@
+@import "../../../colors";
+.menu {
+  padding: 10px;
+  border-bottom: 2px solid #E5E5E5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__link {
+    padding: 5px 15px 5px 15px;
+    font-size: 24px;
+    font-weight: 400;
+    color: $mainPurple;
+  }
+
+  &__link:hover {
+    color: $headerWheat;
+  }
+
+  ._active {
+    border-radius: 3px;
+    background: $mainPurple;
+    color: $headerWheat;
+  }
+}

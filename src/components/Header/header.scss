@@ -1,0 +1,70 @@
+@import "../../colors";
+.header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vert-align: middle;
+  background: $mainPurple;
+
+  &__logo{
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: $headerWheat;
+  }
+
+  &__cart-block {
+    position: relative;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__cart-length {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -10px;
+    right: -15px;
+    padding: 2px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 50%;
+    background: #F6F6F6;
+    color: $mainPurple;
+  }
+
+  &__cart {
+    width: 40px;
+    height: 40px;
+  }
+
+  &__avatar {
+    margin: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+
+  &__user {
+    margin: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    color: $headerWheat;
+  }
+
+  &__user:hover {
+    color: #ffffff;
+  }
+
+  &__right-side {
+      display: flex;
+      align-items: center;
+  }
+
+}

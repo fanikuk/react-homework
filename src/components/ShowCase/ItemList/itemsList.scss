@@ -1,0 +1,22 @@
+@import "../../../colors";
+
+.items-list {
+  margin: 50px auto 80px auto;
+  width: 850px;
+  border: 2px solid #E5E5E5;
+  display: flex;
+  flex-wrap: wrap;
+  background: #ffffff;
+}
+.empty-list {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+
+  &__empty {
+    font-size: 24px;
+    font-weight: 300;
+    color: $mainPurple;
+  }
+
+}

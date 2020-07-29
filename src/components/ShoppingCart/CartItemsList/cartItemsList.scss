@@ -1,0 +1,16 @@
+@import "../../../colors";
+
+.cartItems {
+  display: flex;
+  flex-direction: column;
+}
+.center {
+  display: flex;
+  justify-content: center;
+
+  &__cartEmpty {
+    font-size: 24px;
+    font-weight: 300;
+    color: $mainPurple;
+  }
+}

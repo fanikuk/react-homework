@@ -1,0 +1,86 @@
+@import "../../../colors";
+
+.cartItem {
+  margin: 10px auto 5px auto;
+  padding: 10px;
+  width: 1000px;
+  border: 2px solid #E5E5E5;
+  display: flex;
+  justify-content: space-around;
+  background: #ffffff;
+
+  &__left,
+  &__center {
+    display: flex;
+    justify-content: left;
+  }
+
+  &__left {
+    width: 300px;
+    align-items: flex-start;
+  }
+
+  &__title {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+
+  &__image {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+  }
+
+  &__center {
+    width: 100px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__button {
+    border: none;
+    width: 30px;
+    font-size: 18px;
+    background: none;
+    outline: none;
+  }
+
+  &__button:hover {
+    color: $mainPurple;
+    border-bottom: 2px solid $headerWheat;
+    transition: 0.1s;
+  }
+
+  &__button:active {
+    color: $headerWheat;
+  }
+
+  &__cost {
+    width: 100px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    align-self: center;
+  }
+
+  &__delete {
+    border: none;
+    border-bottom: 2px solid #3498db;
+    margin-top: 2px;
+    width: 100px;
+    font-size: 16px;
+    align-self: center;
+    text-align: center;
+    background: none;
+    outline: none;
+  }
+
+  &__delete:hover {
+    color: $headerWheat;
+  }
+
+  &__delete:active {
+    color: $mainPurple;
+  }
+
+}

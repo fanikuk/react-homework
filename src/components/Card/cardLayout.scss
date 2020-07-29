@@ -1,0 +1,67 @@
+@import "../../colors";
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: $mainPurple;
+  }
+
+  &__form {
+    width: 500px;
+    margin-top: 10px;
+    padding: 20px;
+    border: 2px solid #E5E5E5;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+  }
+
+  &__input {
+    width: 250px;
+    margin-bottom: 15px;
+    margin-right: 40px;
+    border: none;
+    border-bottom: 2px solid $mainPurple;
+    font-size: 16px;
+    background: none;
+    outline: none;
+  }
+
+  &__input:focus,
+  &__input:hover {
+    border-color: #3498db;
+  }
+
+  &__buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__link {
+    border: none;
+    border-bottom: 2px solid #3498db;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+    background: none;
+    color: $mainPurple;
+    outline: none;
+  }
+
+  &__link:hover {
+    color: $headerWheat;
+  }
+
+  &__link:focus {
+    color: $mainPurple;
+  }
+
+}
